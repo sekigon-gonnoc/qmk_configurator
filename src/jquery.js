@@ -420,14 +420,8 @@ function parseKeycode(keycode, stats) {
   }
 
   if (keycode.length < 4) {
-    // unexpectedly short keycode
-    store.commit(
-      'status/append',
-      `Found an unexpected keycode '${escape(keycode)}' on layer ${
-        stats.layers
-      } in keymap. Setting to KC_TRNS\n`
-    );
-    return store.getters['keycodes/lookupKeycode']('KC_TRNS');
+    stats.any += 1;
+    return newAnyKey(keycode);
   }
 
   // regular keycode
