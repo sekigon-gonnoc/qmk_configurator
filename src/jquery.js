@@ -541,7 +541,7 @@ function getExclusionList() {
 }
 
 function getInternalInfoList() {
-  return ['kugel', 'toybox'];
+  return ['kugel', 'toybox', 'keyboard_quantizer'];
 }
 
 function compileLayout(_keyboard, _keymapName, _layout) {
