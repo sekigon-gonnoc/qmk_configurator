@@ -179,7 +179,7 @@ var WebSerial = /** @class */ (function() {
             _a.port = _b.sent();
             return [
               4 /*yield*/,
-              this.port.open({ baudrate: 115200, buffersize: 81920 })
+              this.port.open({ baudRate: 115200, buffersize: 81920 })
             ];
           case 2:
             _b.sent();
