@@ -1,7 +1,7 @@
 {
   "keyboard": "hadron/ver2",
-  "keymap": "default_0072fdd",
-  "commit": "0072fdd799ffe61bf64f12c23335da3adeb083e5",
+  "keymap": "default",
+  "commit": "9366ed728280f4875ebbba9c0ef1eade03c96d35",
   "layout": "LAYOUT",
   "layers": [
     [

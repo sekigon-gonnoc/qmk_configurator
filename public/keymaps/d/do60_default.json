@@ -1,7 +1,7 @@
 {
   "keyboard": "do60",
-  "keymap": "default_0072fdd",
-  "commit": "0072fdd799ffe61bf64f12c23335da3adeb083e5",
+  "keymap": "default",
+  "commit": "2cebac6f2f7f5a49adf7f2ce8a94c8ba1dbef707",
   "layout": "LAYOUT_all",
   "layers": [
     [
